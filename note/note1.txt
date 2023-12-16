@@ -1,0 +1,10 @@
+chưa: cài pug, bật local host 3000
+cú pháp pug
+// được biên dịch thành mã html
+//- không được biên dịch thành mã html
+//- sử dụng biến trong pugjs
+ - var <variableName> = <value>;
+<tag>= <variable>
+<tag> Nội dung #{<variable>}
+//- variable là 1 đoạn mã html
+<tag> Nội dung !{<variable>}
